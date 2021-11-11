@@ -2,6 +2,7 @@ pipeline {
   agent any 
   tools {
     maven 'MAVEN'
+    }
   stages {
     stage ('Initialize') {
       steps {
@@ -23,4 +24,4 @@ pipeline {
    }
     
  }
-}
+
